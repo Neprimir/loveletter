@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Открытка Даше</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+	<div style="height: 800px" id="header">
+		<div class="fade-out-element">
+			<h1>🌸 <span style="color: #691b35;">Д</span>оброе утро, Даша</h1>
+    		<div class="pics">
+    			<p>Тут надо наверно в таких штуках писать что-то уникальное, красивое, но я хочу написать что-то от себя. Это небольшой сайтик, на котором я спрятал буковы, собери слово и впиши в поле ниже. Удачи!</p>
+    			
+    			<div class="contract">
+        			<h2>📄 Контр<span style="color: #691b35;">а</span>кт о дружбе</h2>
+        			<p class="contract-text">
+           				Мы, нижеподписавшиеся, согласились на:<br>
+			            1. Поддержку, лояльность.<br>
+			            2. Честноть, искренность в общении.<br>
+			            3. Сме<span style="color: #691b35;">ш</span>утки и тикитоки.<br><br>
+			            Действует с момента подписания ❤️
+        			</p>
+
+        			<div class="signatures">
+            			<div class="signature">
+                			<img src="avatar1.jpg" alt="Подпись 1">
+                			<span>Сторона 1</span>
+            			</div>
+            			<div class="signature">
+                			<img src="avatar2.jpg" alt="Подпись 2">
+                			<span>Сторона 2</span>
+            			</div>
+        			</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    
+    
+    <div class="fade-in-element" style="height: 850px">
+    	<h1>Генер<span style="color: #691b35;">а</span>тор комплиментов <span class="heart">❤️</span></h1>
+    	<div id="complimentContainer">
+        	Нажми на кнопку ниже!
+    	</div>
+    	<button id="generateBtn">Сгенерировать комплимент</button>
+    	<div class="code-lock">
+        	<!-- Блоки цифр будут добавлены через JS -->
+    	</div>
+    
+    	<button class="check-button" id="checkButton">Проверить код</button>
+    	<div class="message" id="message"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
